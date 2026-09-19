@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "intelli-ade-08aug"
+		},
+		"LS_ADLS2_intelliadf0808_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS2_intelliadf0808_properties_typeProperties_url": {
+			"value": "https://intelliadfstrg0808.dfs.core.windows.net/"
+		}
+	}
+}
