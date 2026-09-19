@@ -1,0 +1,12 @@
+{
+	"name": "LS_ADLS2_intelliadf0808",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://intelliadfstrg0808.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEMxODAxNTk3LTkxMTUtNDQxOC05RDY1LURDOUI2QjIyMjlBRF8zOWEyMjkzZS0zZTY5LTRhOGYtYWM1YS0zNGY5NmQ2M2FlOWYiDQp9"
+		}
+	}
+}
