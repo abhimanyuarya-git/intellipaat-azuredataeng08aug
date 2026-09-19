@@ -1,5 +1,5 @@
 {
-	"name": "DS_adls2_intellistrg0808_menuitems",
+	"name": "DS_adls2_intellistrg0808_menu",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LS_ADLS2_intelliadf0808",
