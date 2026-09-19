@@ -1,0 +1,45 @@
+{
+	"name": "DS_adls2_intellistrg0808_menuitems",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_ADLS2_intelliadf0808",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "menu_items.csv",
+				"folderPath": "source",
+				"fileSystem": "datalake"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "item_id",
+				"type": "String"
+			},
+			{
+				"name": "item_name",
+				"type": "String"
+			},
+			{
+				"name": "category",
+				"type": "String"
+			},
+			{
+				"name": "base_price",
+				"type": "String"
+			},
+			{
+				"name": "is_veg",
+				"type": "String"
+			}
+		]
+	}
+}
